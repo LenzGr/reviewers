@@ -1,6 +1,7 @@
 Alfonso Martínez <almartin@redhat.com>
 Boris Ranto <branto@redhat.com>
 Ernesto Puerta <epuertat@redhat.com>
+Jeff Layton <jlayton@redhat.com>
 Kanika Murarka <kmurarka@redhat.com>
 Kefu Chai <kchai@redhat.com>
 Laura Paduano <lpaduano@suse.com>
