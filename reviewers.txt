@@ -1,9 +1,11 @@
 Alfonso Martínez <almartin@redhat.com>
 Boris Ranto <branto@redhat.com>
 Ernesto Puerta <epuertat@redhat.com>
+Jan Fajerski <jfajerski@suse.com>
 Jeff Layton <jlayton@redhat.com>
 Kanika Murarka <kmurarka@redhat.com>
 Kefu Chai <kchai@redhat.com>
+Kiefer Chang <kiefer.chang@suse.com>
 Laura Paduano <lpaduano@suse.com>
 Neha Gupta <gnehapk@gmail.com>
 Patrick Nawracay <pnawracay@suse.com>
