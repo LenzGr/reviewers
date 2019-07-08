@@ -8,7 +8,7 @@ Kefu Chai <kchai@redhat.com>
 Kiefer Chang <kiefer.chang@suse.com>
 Laura Paduano <lpaduano@suse.com>
 Neha Gupta <gnehapk@gmail.com>
-Patrick Nawracay <pnawracay@suse.com>
+Patrick Seidensal <pnawracay@suse.com>
 Ricardo Dias <rdias@suse.com>
 Ricardo Marques <rimarques@suse.com>
 Sebastian Krah <skrah@suse.com>
