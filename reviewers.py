@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 """
-Copyright (c) 2018 Lenz Grimmer
+Copyright (c) 2018-2020 Lenz Grimmer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,8 @@ SOFTWARE.
 
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gdk
+gi.require_version('Keybinder', '3.0')
+from gi.repository import Gtk, Gdk, Keybinder
 import sys
 
 
@@ -32,6 +33,7 @@ class MyWindow(Gtk.Window):
 
     def __init__(self):
         Gtk.Window.__init__(self, title="Select Reviewers")
+        Keybinder.init()
 
         grid = Gtk.Grid()
         names = ['']
@@ -39,11 +41,13 @@ class MyWindow(Gtk.Window):
 
         self.clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
 
-        button_copy = Gtk.Button(label="Copy")
+        button_copy = Gtk.Button.new_with_mnemonic("_Copy")
         button_copy.connect("clicked", self.copy_button_clicked)
+        Keybinder.bind("<Ctrl>C", self.copy_button_clicked)
 
-        button_quit = Gtk.Button(label="Quit")
+        button_quit = Gtk.Button.new_with_mnemonic("_Quit")
         button_quit.connect("clicked", Gtk.main_quit)
+        Keybinder.bind("<Ctrl>Q", Gtk.main_quit)
 
         namelist = Gtk.ListStore(str)
         for name in readnames():
