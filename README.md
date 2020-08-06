@@ -38,10 +38,10 @@ A window will appear, displaying the list of names as defined in the file.
 ![Screen shot](screenshot.png "Screen shot")
 
 You can now select the desired names by clicking each of them while holding down
-the `CTRL` key. Click **Copy** to copy the list of selected list of reviewers to
-the clipboard. The tool will automatically preprend each line with the string
-`Reviewed-by: `. Example: clicking "Jane Doe" and "Paul Hacker" will result in
-the following clipboard content:
+the `CTRL` key. Click **Copy** or press `Ctrl+C` or `Alt+C` to copy the list of
+selected list of reviewers to the clipboard. The tool will automatically
+preprend each line with the string `Reviewed-by: `. Example: clicking "Jane Doe"
+and "Paul Hacker" will result in the following clipboard content:
 
 ```
 Reviewed-by: Jane Doe <jane.doe@foo.org>
@@ -50,7 +50,7 @@ Reviewed-by: Paul Hacker <paul@hacker.net>
 
 You can now paste the clipboard content into the merge commit message text.
 
-Click **Quit** to exit the application.
+Click **Quit** or press `Ctrl+Q` or `Alt+Q` to exit the application.
 
 ## Requirements
 
