@@ -24,8 +24,7 @@ SOFTWARE.
 
 import gi
 gi.require_version('Gtk', '3.0')
-gi.require_version('Keybinder', '3.0')
-from gi.repository import Gtk, Gdk, Keybinder
+from gi.repository import Gtk, Gdk
 import sys
 
 
@@ -33,7 +32,6 @@ class MyWindow(Gtk.Window):
 
     def __init__(self):
         Gtk.Window.__init__(self, title="Select Reviewers")
-        Keybinder.init()
 
         grid = Gtk.Grid()
         names = ['']
@@ -43,11 +41,9 @@ class MyWindow(Gtk.Window):
 
         button_copy = Gtk.Button.new_with_mnemonic("_Copy")
         button_copy.connect("clicked", self.copy_button_clicked)
-        Keybinder.bind("<Ctrl>C", self.copy_button_clicked)
 
         button_quit = Gtk.Button.new_with_mnemonic("_Quit")
         button_quit.connect("clicked", Gtk.main_quit)
-        Keybinder.bind("<Ctrl>Q", Gtk.main_quit)
 
         namelist = Gtk.ListStore(str)
         for name in readnames():
