@@ -1,6 +1,8 @@
 Alfonso Martínez <almartin@redhat.com>
+Avan Thakkar <athakkar@redhat.com>
 Boris Ranto <branto@redhat.com>
 Ernesto Puerta <epuertat@redhat.com>
+Fabrizio D'Angelo <fdangelo@redhat.com>
 Jan Fajerski <jfajerski@suse.com>
 Jeff Layton <jlayton@redhat.com>
 Kanika Murarka <kmurarka@redhat.com>
