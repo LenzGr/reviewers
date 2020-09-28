@@ -2,6 +2,7 @@ Aashish Sharma <aasharma@redhat.com>
 Alfonso Martínez <almartin@redhat.com>
 Avan Thakkar <athakkar@redhat.com>
 Boris Ranto <branto@redhat.com>
+Courtney Caldwell <ccaldwel@redhat.com>
 Ernesto Puerta <epuertat@redhat.com>
 Jan Fajerski <jfajerski@suse.com>
 Jeff Layton <jlayton@redhat.com>
