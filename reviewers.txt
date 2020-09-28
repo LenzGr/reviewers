@@ -1,15 +1,15 @@
+Aashish Sharma <aasharma@redhat.com>
 Alfonso Martínez <almartin@redhat.com>
 Avan Thakkar <athakkar@redhat.com>
 Boris Ranto <branto@redhat.com>
 Ernesto Puerta <epuertat@redhat.com>
-Fabrizio D'Angelo <fdangelo@redhat.com>
 Jan Fajerski <jfajerski@suse.com>
 Jeff Layton <jlayton@redhat.com>
 Kanika Murarka <kmurarka@redhat.com>
 Kefu Chai <kchai@redhat.com>
 Kiefer Chang <kiefer.chang@suse.com>
 Laura Paduano <lpaduano@suse.com>
-Neha Gupta <gnehapk@gmail.com>
+Nizamudeen A <nia@redhat.com>
 Patrick Seidensal <pnawracay@suse.com>
 Ricardo Dias <rdias@suse.com>
 Ricardo Marques <rimarques@suse.com>
